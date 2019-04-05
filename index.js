@@ -11,7 +11,7 @@ function preload() {
 }
 
 function setup() {
-  cnv = createCanvas(400, 400);
+  cnv = createCanvas(350, 350);
   cnv.parent('planets');
 
   cnv.addClass('d-block');
@@ -23,6 +23,7 @@ function setup() {
   cpp_logo.resize(60, 0);
   python_logo.resize(50, 0);
   android_logo.resize(55, 0);
+
 
 }
 
