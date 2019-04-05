@@ -1,0 +1,58 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: rgba(36, 27, 35) !important;
+}
+
+#coc_logo {
+  width: 32vw;
+  min-width: 300px;
+  max-width: 420px;
+}
+
+#title {
+  font-family: 'Montserrat', sans-serif;
+  background-color: inherit;
+  color: rgba(36, 27, 35);
+  border-style: solid;
+  text-shadow:
+   -2px -2px 0 rgb(194, 187, 134),  
+    2px -2px 0 rgb(194, 187, 134),
+    -2px 2px 0 rgb(194, 187, 134),
+     2px 2px 0 rgb(194, 187, 134);
+  font-size: 72px;
+}
+
+@media only screen and (max-width: 700px) {
+  #title {
+    font-size: 45px;
+  }
+}
+
+.quote-div {
+  width: 90vw;
+  max-width: 800px;
+  min-width: 300px;
+}
+
+footer {
+  background-color: rgb(39, 34, 43);
+}
+
+.contact-div {
+  width: 90vw;
+  max-width: 800px;
+}
+
+.contact {
+  font-family: monospace !important;
+}
+
+.contact span {
+  color: rgb(194, 187, 134);
+}
