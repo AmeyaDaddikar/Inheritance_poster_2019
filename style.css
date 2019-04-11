@@ -56,3 +56,40 @@ footer {
 .contact span {
   color: rgb(194, 187, 134);
 }
+
+#faq-div {
+  border-top: 10px dotted rgb(47, 65, 74);
+  max-width: 800px;
+  overflow: auto;
+}
+
+.color-yellow {
+  color: rgb(194, 187, 134);
+}
+
+p.ans {
+  color: rgb(179, 175, 178) ;
+  max-width: 600px;
+  float: right;
+}
+
+p.ans ul li{
+  color: rgb(179, 175, 178) !important;
+}
+
+p.ans.left {
+  float: left;
+}
+p.ans.right {
+  float: right;
+}
+
+
+p.ans em {
+  color: white;
+  font-size: 1.2em;
+}
+
+.clearfix {
+  overflow: auto;
+}

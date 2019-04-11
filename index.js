@@ -1,3 +1,8 @@
+$("#faq-btn").click(function() {
+  $("#faq-div").fadeToggle();
+});
+
+////////////////////////////////////CANVAS///////////////////////////
 var cnv, coc_logo, github_logo, html_logo, brain_img, cpp_logo, python_logo, android_logo;
 
 function preload() {
@@ -11,7 +16,9 @@ function preload() {
 }
 
 function setup() {
-  cnv = createCanvas(350, 350);
+  
+  const canvasDims = displayWidth < 400 ? displayWidth - 10: 400;
+  cnv = createCanvas(canvasDims, canvasDims);
   cnv.parent('planets');
 
   cnv.addClass('d-block');
