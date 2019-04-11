@@ -2,6 +2,7 @@ $("#faq-btn").click(function() {
   $("#faq-div").fadeToggle();
 });
 
+ScrollReveal().reveal('.clearfix', { delay: 800 });
 ////////////////////////////////////CANVAS///////////////////////////
 var cnv, coc_logo, github_logo, html_logo, brain_img, cpp_logo, python_logo, android_logo;
 
