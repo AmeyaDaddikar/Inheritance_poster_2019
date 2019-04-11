@@ -42,6 +42,7 @@ body {
 
 footer {
   background-color: rgb(39, 34, 43);
+  overflow: auto;
 }
 
 .contact-div {
