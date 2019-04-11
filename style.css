@@ -40,6 +40,10 @@ body {
   min-width: 300px;
 }
 
+#planets {
+  height: 400px;
+}
+
 footer {
   background-color: rgb(39, 34, 43);
   overflow: auto;
